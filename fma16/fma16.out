@@ -1,9 +1,337 @@
-Error: inputs 3c00 * 3c00 + 0000
-  result = xxxx (3c00 expected) flags = xxxx (0000 expected)
-Error: inputs 3c00 * 3e00 + 0000
-  result = xxxx (3e00 expected) flags = xxxx (0000 expected)
-Error: inputs 3e00 * 3c00 + 0000
-  result = xxxx (3e00 expected) flags = xxxx (0000 expected)
-Error: inputs 3e00 * 3e00 + 0000
-  result = xxxx (4080 expected) flags = xxxx (0000 expected)
-         4 tests completed with          4 errors
+Error: inputs 0400 * 4000 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp        5390
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4000 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp        5410
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4000 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp        5420
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4000 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp        5430
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4000 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp        5440
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4000 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp        5450
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4000 + bbff
+  result = 1100 (bbfe expected) flags = xxxx (0001 expected), timestamp        5460
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4200 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp        5860
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4200 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp        5880
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4200 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp        5890
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4200 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp        5900
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4200 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp        5910
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4200 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp        5920
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4200 + bbff
+  result = 1180 (bbfe expected) flags = xxxx (0001 expected), timestamp        5930
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4001 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp        6310
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4001 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp        6330
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4001 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp        6340
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4001 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp        6350
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4001 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp        6360
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 4001 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp        6370
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 4001 + bbff
+  result = 1100 (bbfe expected) flags = xxxx (0001 expected), timestamp        6380
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 43ff + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp        6780
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 43ff + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp        6800
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 43ff + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp        6810
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 43ff + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp        6820
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 43ff + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp        6830
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0400 * 43ff + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp        6840
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0400 * 43ff + bbff
+  result = 11ff (bbfe expected) flags = xxxx (0001 expected), timestamp        6850
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4000 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp       16320
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4000 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       16340
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4000 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp       16350
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4000 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       16360
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4000 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp       16370
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4000 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       16380
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4000 + bbff
+  result = 1180 (bbfe expected) flags = xxxx (0001 expected), timestamp       16390
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4200 + 3800
+  result = b7fe (3800 expected) flags = xxxx (0001 expected), timestamp       16790
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4200 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       16810
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4200 + ba00
+  result = 3401 (b9ff expected) flags = xxxx (0001 expected), timestamp       16820
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4200 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       16830
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4200 + b801
+  result = 37ff (b800 expected) flags = xxxx (0001 expected), timestamp       16840
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4200 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       16850
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4200 + bbff
+  result = 1240 (bbfe expected) flags = xxxx (0001 expected), timestamp       16860
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4001 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp       17260
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4001 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       17280
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4001 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp       17290
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4001 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       17300
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4001 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp       17310
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 4001 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       17320
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 4001 + bbff
+  result = 1180 (bbfe expected) flags = xxxx (0001 expected), timestamp       17330
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 43ff + 3800
+  result = b7fe (3800 expected) flags = xxxx (0001 expected), timestamp       17730
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 43ff + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       17750
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 43ff + ba00
+  result = 3401 (b9ff expected) flags = xxxx (0001 expected), timestamp       17760
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 43ff + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       17770
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 43ff + b801
+  result = 37ff (b800 expected) flags = xxxx (0001 expected), timestamp       17780
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0600 * 43ff + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       17790
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0600 * 43ff + bbff
+  result = 12ff (bbfe expected) flags = xxxx (0001 expected), timestamp       17800
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4000 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp       27250
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4000 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       27270
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4000 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp       27280
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4000 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       27290
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4000 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp       27300
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4000 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       27310
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4000 + bbff
+  result = 1100 (bbfe expected) flags = xxxx (0001 expected), timestamp       27320
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4200 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp       27720
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4200 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       27740
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4200 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp       27750
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4200 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       27760
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4200 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp       27770
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4200 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       27780
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4200 + bbff
+  result = 1180 (bbfe expected) flags = xxxx (0001 expected), timestamp       27790
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4001 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp       28170
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4001 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       28190
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4001 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp       28200
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4001 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       28210
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4001 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp       28220
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 4001 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       28230
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 4001 + bbff
+  result = 1100 (bbfe expected) flags = xxxx (0001 expected), timestamp       28240
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 43ff + 3800
+  result = b7fe (3800 expected) flags = xxxx (0001 expected), timestamp       28640
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 43ff + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       28660
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 43ff + ba00
+  result = 3401 (b9ff expected) flags = xxxx (0001 expected), timestamp       28670
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 43ff + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       28680
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 43ff + b801
+  result = 37ff (b800 expected) flags = xxxx (0001 expected), timestamp       28690
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 0401 * 43ff + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       28700
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 0401 * 43ff + bbff
+  result = 1200 (bbfe expected) flags = xxxx (0001 expected), timestamp       28710
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4000 + 3800
+  result = b7ff (3800 expected) flags = xxxx (0001 expected), timestamp       38220
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4000 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       38240
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4000 + ba00
+  result = 3400 (b9ff expected) flags = xxxx (0001 expected), timestamp       38250
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4000 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       38260
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4000 + b801
+  result = 37fe (b800 expected) flags = xxxx (0001 expected), timestamp       38270
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4000 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       38280
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4000 + bbff
+  result = 11ff (bbfe expected) flags = xxxx (0001 expected), timestamp       38290
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4200 + 3800
+  result = b7fe (3800 expected) flags = xxxx (0001 expected), timestamp       38690
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4200 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       38710
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4200 + ba00
+  result = 3401 (b9ff expected) flags = xxxx (0001 expected), timestamp       38720
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4200 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       38730
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4200 + b801
+  result = 37ff (b800 expected) flags = xxxx (0001 expected), timestamp       38740
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4200 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       38750
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4200 + bbff
+  result = 12ff (bbfe expected) flags = xxxx (0001 expected), timestamp       38760
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4001 + 3800
+  result = b7fe (3800 expected) flags = xxxx (0001 expected), timestamp       39160
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4001 + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       39180
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4001 + ba00
+  result = 3401 (b9ff expected) flags = xxxx (0001 expected), timestamp       39190
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4001 + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       39200
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4001 + b801
+  result = 37ff (b800 expected) flags = xxxx (0001 expected), timestamp       39210
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 4001 + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       39220
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 4001 + bbff
+  result = 1200 (bbfe expected) flags = xxxx (0001 expected), timestamp       39230
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 43ff + 3800
+  result = b7fe (3800 expected) flags = xxxx (0001 expected), timestamp       39630
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 43ff + 3a00
+  result = b9ff (3a00 expected) flags = xxxx (0001 expected), timestamp       39650
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 43ff + ba00
+  result = 3401 (b9ff expected) flags = xxxx (0001 expected), timestamp       39660
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 43ff + 3801
+  result = b800 (3801 expected) flags = xxxx (0001 expected), timestamp       39670
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 43ff + b801
+  result = 37ff (b800 expected) flags = xxxx (0001 expected), timestamp       39680
+          sign match : 0 || exp match : 0 || frac match : 0
+Error: inputs 07ff * 43ff + 3bff
+  result = bbfe (3bff expected) flags = xxxx (0001 expected), timestamp       39690
+          sign match : 0 || exp match : 1 || frac match : 0
+Error: inputs 07ff * 43ff + bbff
+  result = 13ff (bbfe expected) flags = xxxx (0001 expected), timestamp       39700
+          sign match : 0 || exp match : 0 || frac match : 0
+     10001 tests completed with        112 errors
