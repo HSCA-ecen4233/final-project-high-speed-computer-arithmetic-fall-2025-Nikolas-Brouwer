@@ -1,0 +1,42 @@
+Warning: Design 'fma16wrapper' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : constraint
+Design : fma16wrapper
+Version: W-2024.09-SP4-1
+Date   : Fri Dec  5 21:42:14 2025
+****************************************
+
+
+                                                   Weighted
+    Group (max_delay/setup)      Cost     Weight     Cost
+    -----------------------------------------------------
+    clk                      0.174237  1.000000  0.174237
+    default                  0.000000  1.000000  0.000000
+    -----------------------------------------------------
+    max_delay/setup                              0.174237
+
+                              Total Neg  Critical
+    Group (critical_range)      Slack    Endpoints   Cost
+    -----------------------------------------------------
+    clk                      5.542198        16  2.787799
+    default                  0.000000         0  0.000000
+    -----------------------------------------------------
+    critical_range                               2.787799
+
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    multiport_net                                0.000000 (MET)
+    max_transition                               0.000000 (MET)
+    max_fanout                                   0.000000 (MET)
+    max_capacitance                              0.000000 (MET)
+    max_delay/setup                              0.174237 (VIOLATED)
+    sequential_clock_pulse_width                 15.347525
+                                                          (VIOLATED)
+    critical_range                               2.787799 (VIOLATED)
+    max_leakage_power                            737.586792
+                                                          (VIOLATED)
+
+
+1

@@ -1,0 +1,65 @@
+Warning: Design 'fma16wrapper' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : fma16wrapper
+Version: W-2024.09-SP4-1
+Date   : Fri Dec  5 21:42:14 2025
+****************************************
+
+Library(s) Used:
+
+    sky130_osu_sc_12T_ms_TT_1P8_25C.ccs (File: /opt/riscv/cad/lib/sky130_osu_sc_t12/12T_ms/lib/sky130_osu_sc_12T_ms_TT_1P8_25C.ccs.db)
+
+Number of ports:                          149
+Number of nets:                           388
+Number of cells:                          102
+Number of combinational cells:             22
+Number of sequential cells:                79
+Number of macros/black boxes:               0
+Number of buf/inv:                          8
+Number of references:                       4
+
+Combinational area:                202.197598
+Buf/Inv area:                       35.164799
+Noncombinational area:            2256.408119
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  2458.605718
+Total area:                 undefined
+
+Information: This design contains black box (unknown) components. (RPT-8)
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+fma16wrapper                      2458.6057    100.0   21.9780  2256.4081  0.0000  fma16wrapper
+fma16                              180.2196      7.3  180.2196     0.0000  0.0000  fma16
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 202.1976  2256.4081  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+  No DW parts to report!
+
+Estimated area of ungrouped synthetic parts
+-------------------------------------------
+                           Estimated  Perc. of
+  Module   Implem.  Count       Area cell area
+  -------- -------  ----- ---------- ---------
+  DW01_sub apparch      1   180.2196      7.3%
+  -------- -------  ----- ---------- ---------
+  Total:                1   180.2196      7.3%
+
+Total synthetic cell area:              180.2196  7.3%  (estimated)
+
+1
