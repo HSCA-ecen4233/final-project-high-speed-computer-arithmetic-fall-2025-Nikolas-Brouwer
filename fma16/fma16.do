@@ -57,6 +57,9 @@ add wave -hex /tb_fma16/dut/FMAadd/Sm
 add wave -hex /tb_fma16/dut/Se
 add wave -hex /tb_fma16/dut/CountE
 add wave -hex /tb_fma16/dut/lza/CountTemp
+add wave -hex /tb_fma16/dut/sign/*
+add wave -hex /tb_fma16/dut/align/Acnt
+add wave -hex /tb_fma16/dut/ASticky
 add wave -noupdate -divider -height 32 "fma16"
 add wave -color gold -hex /tb_fma16/clk
 add wave -hex /tb_fma16/reset
@@ -67,6 +70,7 @@ add wave -hex /tb_fma16/result
 add wave -hex /tb_fma16/rexpected
 add wave -hex /tb_fma16/ExponentExpected
 add wave -hex /tb_fma16/ResultExponent
+add wave -hex /tb_fma16/flagsexpected
 
 run -all
 quit

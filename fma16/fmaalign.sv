@@ -32,7 +32,7 @@ module fmaalign (Ze, Zm, XZero, YZero, ZZero, Xe, Ye, Am, ASticky, KillProd);
    assign Acnt = (Xe + Ye) - Ze - 3;
    //KillZ = Acnt > (3Nf + 3) = (3*10 + 3) = 33
    assign KillZ = $signed(Acnt) > $signed(7'd35);
-   assign KillProd = ($signed(Acnt) < $signed('d0)) | XZero | YZero;
+   assign KillProd = ($signed(Acnt) <= $signed('d0)) | XZero | YZero;
    assign ZmPreShift = {Zm, 33'b0};
    //Zm if Kill product, 0 if Kill Z, ZmPreShift shifted by Acnt otherwise
    assign ZmShift = KillZ ? 44'b0 : (KillProd ? {12'b0, Zm, 21'b0} : (ZmPreShift >> Acnt));

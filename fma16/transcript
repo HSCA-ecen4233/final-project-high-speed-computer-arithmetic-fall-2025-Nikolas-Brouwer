@@ -1,6 +1,6 @@
 # do fma16.do
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 01:37:39 on Nov 26,2025
+# Start time: 17:13:39 on Dec 05,2025
 # vlog -lint fma16.sv testbench.sv unpack.sv fmaexpadd.sv fmamult.sv fmasign.sv fmaalign.sv fmaadd.sv fmalza.sv 
 # -- Compiling module fma16
 # -- Compiling module tb_fma16
@@ -14,10 +14,10 @@
 # 
 # Top level modules:
 # 	tb_fma16
-# End time: 01:37:39 on Nov 26,2025, Elapsed time: 0:00:00
+# End time: 17:13:40 on Dec 05,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb_fma16 
-# Start time: 01:37:39 on Nov 26,2025
+# Start time: 17:13:40 on Dec 05,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # //  ModelSim SE-64 2021.3 Jul 13 2021
 # //
@@ -42,11 +42,9 @@
 # Loading work.fmaalign(fast)
 # Loading work.fmaadd(fast)
 # Loading work.fmalza(fast)
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 10543 of file "tests/fma_2.tv". (Current address [10001], address range [0:10000])    : testbench.sv(37)
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fma16
 # ** Note: $stop    : testbench.sv(66)
-#    Time: 100025 ns  Iteration: 1  Instance: /tb_fma16
+#    Time: 36255 ns  Iteration: 1  Instance: /tb_fma16
 # Break in Module tb_fma16 at testbench.sv line 66
 # Stopped at testbench.sv line 66
-# End time: 01:37:41 on Nov 26,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 1
+# End time: 17:13:42 on Dec 05,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
