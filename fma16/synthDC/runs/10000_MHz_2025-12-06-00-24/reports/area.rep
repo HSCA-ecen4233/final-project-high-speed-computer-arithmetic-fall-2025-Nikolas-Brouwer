@@ -1,0 +1,80 @@
+ 
+****************************************
+Report : area
+Design : fma16wrapper
+Version: W-2024.09-SP4-1
+Date   : Sat Dec  6 00:24:53 2025
+****************************************
+
+Library(s) Used:
+
+    sky130_osu_sc_12T_ms_TT_1P8_25C.ccs (File: /opt/riscv/cad/lib/sky130_osu_sc_t12/12T_ms/lib/sky130_osu_sc_12T_ms_TT_1P8_25C.ccs.db)
+
+Number of ports:                          590
+Number of nets:                          3457
+Number of cells:                         2952
+Number of combinational cells:           2872
+Number of sequential cells:                70
+Number of macros/black boxes:               0
+Number of buf/inv:                        871
+Number of references:                       4
+
+Combinational area:              21225.863697
+Buf/Inv area:                     4608.053877
+Noncombinational area:            2256.408119
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 23482.271816
+Total area:                 undefined
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+fma16wrapper                      23482.2718    100.0     21.9780  2256.4081  0.0000  fma16wrapper
+fma16                             21203.8857     90.3    346.7640     0.0000  0.0000  fma16
+fma16/FMAadd                       5524.7807     23.5   5524.7807     0.0000  0.0000  fmaadd
+fma16/XUnpack                       337.9728      1.4    337.9728     0.0000  0.0000  unpack_2
+fma16/YUnpack                       313.5528      1.3    313.5528     0.0000  0.0000  unpack_1
+fma16/ZUnpack                       315.5064      1.3    315.5064     0.0000  0.0000  unpack_0
+fma16/align                        3070.5708     13.1   3070.5708     0.0000  0.0000  fmaalign
+fma16/expadd                        293.5284      1.3    293.5284     0.0000  0.0000  fmaexpadd
+fma16/lza                          4487.4191     19.1   4487.4191     0.0000  0.0000  fmalza
+fma16/mult                         6471.2999     27.6   6471.2999     0.0000  0.0000  fmamult
+fma16/sign                           42.4908      0.2     42.4908     0.0000  0.0000  fmasign
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Total                                                  21225.8637  2256.4081  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+  No DW parts to report!
+
+Estimated area of ungrouped synthetic parts
+-------------------------------------------
+                                       Estimated  Perc. of
+  Module              Implem.  Count        Area cell area
+  ------------------- -------  ----- ----------- ---------
+  DP_OP_16J1_122_1449     str      1   1965.8129      8.4%
+  DP_OP_16J1_124_8035     str      1    896.2134      3.8%
+  DP_OP_17J1_123_9702     str      1   1803.1747      7.7%
+  DP_OP_5J1_125_7667      str      1    225.6408      1.0%
+  DW01_sub            apparch      1   4487.4189     19.1%
+  DW01_sub             pparch      1    304.7616      1.3%
+  DW_mult_uns          pparch      1   5307.4253     22.6%
+  DW_rightsh             astr      1   1346.0304      5.7%
+  ------------------- -------  ----- ----------- ---------
+  DP_OP Subtotal:                  4   4890.8417     20.8%
+  Total:                           8  16336.4780     69.6%
+
+Subtotal of datapath(DP_OP) cell area:  4890.8417  20.8%  (estimated)
+Total synthetic cell area:              16336.4780  69.6%  (estimated)
+
+1

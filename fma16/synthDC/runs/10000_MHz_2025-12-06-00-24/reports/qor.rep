@@ -1,21 +1,20 @@
-Warning: Design 'fma16wrapper' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 Report : qor
 Design : fma16wrapper
 Version: W-2024.09-SP4-1
-Date   : Fri Dec  5 21:42:14 2025
+Date   : Sat Dec  6 00:24:52 2025
 ****************************************
 
 
   Timing Path Group 'clk'
   -----------------------------------
-  Levels of Logic:           0.000000
-  Critical Path Length:      0.274237
-  Critical Path Slack:      -0.174237
+  Levels of Logic:          62.000000
+  Critical Path Length:      5.205211
+  Critical Path Slack:      -5.251068
   Critical Path Clk Period:  0.100000
-  Total Negative Slack:     -5.542203
-  No. of Violating Paths:   70.000000
+  Total Negative Slack:    -87.771004
+  No. of Violating Paths:   86.000000
   Worst Hold Violation:      0.000000
   Total Hold Violation:      0.000000
   No. of Hold Violations:    0.000000
@@ -24,14 +23,14 @@ Date   : Fri Dec  5 21:42:14 2025
 
   Cell Count
   -----------------------------------
-  Hierarchical Cell Count:          1
-  Hierarchical Port Count:         74
-  Leaf Cell Count:                101
-  Buf/Inv Cell Count:               8
-  Buf Cell Count:                   0
-  Inv Cell Count:                   8
+  Hierarchical Cell Count:         10
+  Hierarchical Port Count:        515
+  Leaf Cell Count:               2942
+  Buf/Inv Cell Count:             871
+  Buf Cell Count:                 161
+  Inv Cell Count:                 710
   CT Buf/Inv Cell Count:            0
-  Combinational Cell Count:        31
+  Combinational Cell Count:      2872
   Sequential Cell Count:           70
   Macro Count:                      0
   -----------------------------------
@@ -39,21 +38,21 @@ Date   : Fri Dec  5 21:42:14 2025
 
   Area
   -----------------------------------
-  Combinational Area:      202.197598
+  Combinational Area:    21225.863697
   Noncombinational Area:  2256.408119
-  Buf/Inv Area:             35.164799
-  Total Buffer Area:         0.000000
-  Total Inverter Area:      35.164799
+  Buf/Inv Area:           4608.053877
+  Total Buffer Area:      1194.137988
+  Total Inverter Area:    3413.915889
   Macro/Black Box Area:      0.000000
   Net Area:                  0.000000
   -----------------------------------
-  Cell Area:              2458.605718
-  Design Area:            2458.605718
+  Cell Area:             23482.271816
+  Design Area:           23482.271816
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:           323
+  Total Number of Nets:          2997
   Nets With Violations:             0
   Max Trans Violations:             0
   Max Cap Violations:               0
@@ -64,16 +63,16 @@ Date   : Fri Dec  5 21:42:14 2025
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                0.006104
-  Logic Optimization:              0.175541
-  Mapping Optimization:            0.069183
+  Resource Sharing:                0.197716
+  Logic Optimization:              4.857178
+  Mapping Optimization:            41.702805
   -----------------------------------------
-  Overall Compile Time:            1.131456
-  Overall Compile Wall Clock Time: 1.426435
+  Overall Compile Time:            49.828773
+  Overall Compile Wall Clock Time: 50.229847
 
   --------------------------------------------------------------------
 
-  Design  WNS: 0.174237  TNS: 5.542203  Number of Violating Paths: 70
+  Design  WNS: 5.251068  TNS: 87.771004  Number of Violating Paths: 86
 
 
   Design (Hold)  WNS: 0.000000  TNS: 0.000000  Number of Violating Paths: 0

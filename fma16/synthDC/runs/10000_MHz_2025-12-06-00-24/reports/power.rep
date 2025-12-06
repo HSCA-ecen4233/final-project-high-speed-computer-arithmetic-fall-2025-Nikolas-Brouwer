@@ -5,7 +5,7 @@ Report : power
         -analysis_effort low
 Design : fma16wrapper
 Version: W-2024.09-SP4-1
-Date   : Fri Dec  5 21:42:14 2025
+Date   : Sat Dec  6 00:24:53 2025
 ****************************************
 
 
@@ -31,6 +31,6 @@ Power-specific unit information :
                                        Switch   Int      Leak     Total
 Hierarchy                              Power    Power    Power    Power    %
 --------------------------------------------------------------------------------
-fma16wrapper                              0.612   14.497    6.728   15.109 100.0
-  fma16 (fma16)                           0.510    0.167    0.514    0.677   4.5
+fma16wrapper                             63.425   34.141  153.998   97.567 100.0
+  fma16 (fma16)                          62.737   19.177  147.787   81.914  84.0
 1
