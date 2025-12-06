@@ -1,6 +1,6 @@
 # do fma16.do
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 17:13:39 on Dec 05,2025
+# Start time: 23:48:20 on Dec 05,2025
 # vlog -lint fma16.sv testbench.sv unpack.sv fmaexpadd.sv fmamult.sv fmasign.sv fmaalign.sv fmaadd.sv fmalza.sv 
 # -- Compiling module fma16
 # -- Compiling module tb_fma16
@@ -14,10 +14,10 @@
 # 
 # Top level modules:
 # 	tb_fma16
-# End time: 17:13:40 on Dec 05,2025, Elapsed time: 0:00:01
+# End time: 23:48:20 on Dec 05,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb_fma16 
-# Start time: 17:13:40 on Dec 05,2025
+# Start time: 23:48:20 on Dec 05,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # //  ModelSim SE-64 2021.3 Jul 13 2021
 # //
@@ -46,5 +46,5 @@
 #    Time: 36255 ns  Iteration: 1  Instance: /tb_fma16
 # Break in Module tb_fma16 at testbench.sv line 66
 # Stopped at testbench.sv line 66
-# End time: 17:13:42 on Dec 05,2025, Elapsed time: 0:00:02
+# End time: 23:48:22 on Dec 05,2025, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

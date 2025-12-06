@@ -27,7 +27,13 @@ set saifpower $::env(SAIFPOWER)
 set maxopt $::env(MAXOPT)
 set drive $::env(DRIVE)
 
-eval file copy -force [glob ${hdl_src}/fma16.sv] {$outputDir/hdl/}
+eval file copy -force [glob ${hdl_src}/unpack.sv] {$outputDir/hdl/}
+eval file copy -force [glob ${hdl_src}/fmaadd.sv] {$outputDir/hdl/}
+eval file copy -force [glob ${hdl_src}/fmaalign.sv] {$outputDir/hdl/}
+eval file copy -force [glob ${hdl_src}/fmaexpadd.sv] {$outputDir/hdl/}
+eval file copy -force [glob ${hdl_src}/fmalza.sv] {$outputDir/hdl/}
+eval file copy -force [glob ${hdl_src}/fmamult.sv] {$outputDir/hdl/}
+eval file copy -force [glob ${hdl_src}/fmasign.sv] {$outputDir/hdl/}
 eval file copy -force [glob ${hdl_src}/fma16wrapper.sv] {$outputDir/hdl/}
 
 # Check if a wrapper is needed and create it (to pass parameters when cvw_t parameters are used)
