@@ -23,6 +23,8 @@ module fma16 (x, y, z, mul, add, negr, negz,
    output logic [15:0] result;
    output logic [3:0]  flags;
 
+   assign flags = 4'b0;
+
    logic [4:0] 	       Xe, Ye, Ze;
    logic [10:0] 	       Xm, Ym, Zm;
    logic 	             Xs, Ys, Zs;
