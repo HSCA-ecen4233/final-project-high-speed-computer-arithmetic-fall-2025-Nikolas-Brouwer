@@ -1,0 +1,36 @@
+Warning: Design 'fma16wrapper' has '7' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nets
+        -max_paths 1
+        -transition_time
+        -capacitance
+Design : fma16wrapper
+Version: W-2024.09-SP4-1
+Date   : Fri Dec  5 21:42:14 2025
+****************************************
+
+Operating Conditions: PVT_1P8V_25C   Library: sky130_osu_sc_12T_ms_TT_1P8_25C.ccs
+Wire Load Model Mode: top
+
+  Startpoint: result_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[15] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  result_reg[15]/CK (sky130_osu_sc_12T_ms__dff_1)               0.000000  0.000000   0.000000 r
+  result_reg[15]/Q (sky130_osu_sc_12T_ms__dff_1)                0.038379  0.189601   0.189601 r
+  result[15] (net)                              1     0.002781            0.000000   0.189601 r
+  result[15] (out)                                              0.038379  0.000000   0.189601 r
+  data arrival time                                                                  0.189601
+  ----------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
